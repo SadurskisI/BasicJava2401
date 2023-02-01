@@ -1,4 +1,4 @@
-package JavaLessons3101;
+package JavaLessons2;
 
 public class Point {
     int xCoordinate;
