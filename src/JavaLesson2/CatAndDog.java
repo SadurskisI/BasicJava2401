@@ -1,4 +1,4 @@
-package JavaLessons2;
+package JavaLesson2;
 
 public class CatAndDog {
     public static void main(String[] args) {
