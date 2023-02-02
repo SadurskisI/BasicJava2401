@@ -20,4 +20,9 @@ public class CalculatorOperations {
         double resultOfDiv = parameter1 / (double) parameter2;
         return resultOfDiv;
     }
+    public double divDoubleParameters(double parameter1, double parameter2) {
+        double resultOfDiv = parameter1 / parameter2;
+        return resultOfDiv;
+    }
 }
+

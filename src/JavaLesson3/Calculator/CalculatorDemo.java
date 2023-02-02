@@ -3,6 +3,7 @@ package JavaLesson3.Calculator;
 public class CalculatorDemo {
     public static void main(String[] args) {
         CalculatorOperations calculatorOperations = new CalculatorOperations();
+
         int a = 5;
         int b = 10;
 
@@ -10,9 +11,13 @@ public class CalculatorDemo {
 
         System.out.println(resultOfSum);
 
-        int resultOfSubstruction = calculatorOperations.minus(55,15);
+        int result2 = calculatorOperations.sum(10,25);
+
+        System.out.println(result2);
+
+        int resultOfSubstraction = calculatorOperations.minus(55,15);
         int resultOfSubstraction2 = calculatorOperations.minus(a,b);
-        System.out.println(resultOfSubstruction);
+        System.out.println(resultOfSubstraction);
         System.out.println(resultOfSubstraction2);
 
         int resultOfMultiplication = calculatorOperations.multiplication(a,b);
@@ -20,6 +25,14 @@ public class CalculatorDemo {
 
         double resultOfDiv = calculatorOperations.div(a,b);
         System.out.println(resultOfDiv);
+
+        double double1 = 5.3;
+        float float1 = 5.3f;
+        int int1 = 5;
+
+        System.out.println(calculatorOperations.divDoubleParameters(5.2,1.5));
+        System.out.println(calculatorOperations.divDoubleParameters(5,2));
+
 
     }
 }
