@@ -1,4 +1,4 @@
-package JavaHomework240123.HomeWork1.HomeWork4;
+package JavaHomework240123.HomeWork1.homeWork4;
 
 public class HomeWork4Method {
 

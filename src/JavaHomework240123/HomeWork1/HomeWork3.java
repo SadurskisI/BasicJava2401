@@ -25,6 +25,7 @@ public class HomeWork3 {
         System.out.println("Новое слово - " + word3);
 
 
+
     }
 }
 
