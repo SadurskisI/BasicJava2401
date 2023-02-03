@@ -5,6 +5,7 @@ import java.util.Scanner;
 import static JavaHomework240123.HomeWork1.HomeWork4.HomeWork4Method.*;
 import static java.lang.Integer.sum;
 
+
 public class HomeWork4 {
     public static void main(String[] args) {
 
