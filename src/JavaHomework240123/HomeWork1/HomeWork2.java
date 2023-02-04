@@ -8,7 +8,7 @@ public class HomeWork2 {
         double a3 = 2.5;
         float a4 = 3.14f;
         short a5 = 5;
-        long a6 = 2000000000;
+        long a6 = 2000000000L;
         char a7 = 'a';
         boolean a8 = false;
 

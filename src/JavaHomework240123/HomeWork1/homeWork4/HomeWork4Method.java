@@ -2,20 +2,24 @@ package JavaHomework240123.HomeWork1.homeWork4;
 
 public class HomeWork4Method {
 
-        public static int sum(int a, int b) {
-            return a + b;
+        public static double sum(double a, double b) {
+            double resultOfSum = a + b;
+            return resultOfSum;
         }
 
-        public static int minus(int a, int b) {
-            return a - b;
+        public static double minus(double a, double b) {
+            double resultOfMinus = a - b;
+            return resultOfMinus;
         }
 
-        public static int multi(int a, int b) {
-            return a * b;
+        public static double multi(double a,double b) {
+            double resultOfMulti = a * b;
+            return resultOfMulti;
         }
 
-        public static int div(int a, int b) {
-            return a / b;
+        public static double div(double a, double b) {
+            double resultOfDiv = a / b;
+            return resultOfDiv;
         }
     }
 
