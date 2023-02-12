@@ -8,7 +8,7 @@ public class HomeWork1 {
 
         if ((isWeekend == true) && (isRain == false)) {
             canWalk = true;
-        }else {
+        } else {
             canWalk = false;
         }
         System.out.println(canWalk);
