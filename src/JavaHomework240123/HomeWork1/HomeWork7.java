@@ -2,7 +2,7 @@ package JavaHomework240123.HomeWork1;
 
 public class HomeWork7 {
         public static void main(String[] args) {
-            int num = 789;
+            int num = 567;
 
             int num1 = num / 100;
             int num2 = (num / 10) % 10;
