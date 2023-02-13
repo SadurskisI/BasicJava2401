@@ -1,19 +1,25 @@
 package JavaHomework240123.HomeWork2;
 
+import java.util.Scanner;
+
 public class HomeWork3 {
     public static void main(String[] args) {
-//        Temperature1 temp1 = new Temperature1(101);
-//        Temperature2 temp2 = new Temperature2(99);
-        int temperature1 = 101;
-        int temperature2 = 99;
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Please enter first flask temperature - ");
+        int temperature1 = scanner.nextInt();
+
+        System.out.println("Please enter second flask temperature - ");
+        int temperature2 = scanner.nextInt();
+
         boolean itWorks;
 
         if ((temperature1 > 100) && (temperature2<100)) {
             itWorks = true;
-            System.out.println(itWorks);
+            System.out.println("Result is - " + itWorks);
         }else{
             itWorks = false;
-            System.out.println(itWorks);
+            System.out.println("Result is - " + itWorks);
         }
     }
 }
