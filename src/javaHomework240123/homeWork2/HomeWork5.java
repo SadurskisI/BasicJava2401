@@ -5,16 +5,22 @@ import java.util.Scanner;
 
 public class HomeWork5 {
     public static void main(String[] args) {
-        int floor = 200;
-        int stepUp = 50;
-        int stepDown = 1;
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Please enter number of floor - ");
+        int floor = scanner.nextInt();
+        System.out.println("Please enter number of step-ups - ");
+        int stepUp = scanner.nextInt();
+        System.out.println("Please enter number of step-down - ");
+        int stepDown = scanner.nextInt();
+        System.out.println("Your number of lifts is - " + numberOfLifts(floor, stepUp,stepDown));
+
+    }
+    public static int numberOfLifts(int floor,int stepUp,int stepDown){
         int nextFloor = 0;
         int i = 0;
-
-        for (i = 0; i < floor; i++) {
-            i = stepUp - stepDown;
-            nextFloor = i + stepUp - stepDown;
-        }
-        System.out.println(i);
+        while (nextFloor <= floor) {
+            nextFloor = nextFloor + stepUp - stepDown;
+            i++;
+        }return i;
     }
 }
