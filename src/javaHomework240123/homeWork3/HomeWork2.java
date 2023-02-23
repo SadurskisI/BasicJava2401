@@ -14,7 +14,7 @@ public class HomeWork2 {
         System.out.println("Integer random number array - " + Arrays.toString(intArray));
 
         //--------Вариант для метода проверки сортировки-----------//
-//        Arrays.sort(intArray);
+        Arrays.sort(intArray);
 //        System.out.println("Sorted integer array - " + Arrays.toString(intArray));
         System.out.println("Is array sorted - " + HomeWork2Method.isSorted(intArray));
         }
